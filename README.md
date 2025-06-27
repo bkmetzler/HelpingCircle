@@ -11,6 +11,8 @@ The backend is a FastAPI application located in `backend/app/main.py`.
 ```bash
 cd backend
 pip install -r requirements.txt
+pip install -r requirements-dev.txt
+pre-commit install
 uvicorn app.main:app --reload
 ```
 

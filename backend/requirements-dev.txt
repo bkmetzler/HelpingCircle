@@ -1,0 +1,5 @@
+pre-commit
+black
+mypy
+pip-tools
+flake8
